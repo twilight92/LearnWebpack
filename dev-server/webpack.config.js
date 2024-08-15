@@ -8,4 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   plugins: [],
+  devServer: {
+    port: 9000,
+  },
 };
